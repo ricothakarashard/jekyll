@@ -7,11 +7,11 @@ Gem::Specification.new do |s|
   s.name          = "jekyll"
   s.version       = Jekyll::VERSION
   s.license       = "MIT"
-  s.authors       = ["Tom Preston-Werner", "Parker Moore", "Matt Rogers"]
+  s.authors       = ["Rashard Iman Kelly @nasa-jpl", "Tom Preston-Werner", "Parker Moore", "Matt Rogers"]
   s.email         = ["maintainers@jekyllrb.com"]
-  s.homepage      = "https://jekyllrb.com"
-  s.summary       = "A simple, blog aware, static site generator."
-  s.description   = "Jekyll is a simple, blog aware, static site generator."
+  s.homepage      = "https://ricothakarashard.github.io"
+  s.summary       = "htau"
+  s.description   = "htau"
 
   all_files       = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
   s.files         = all_files.grep(%r!^(exe|lib|rubocop)/|^.rubocop.yml$!)
